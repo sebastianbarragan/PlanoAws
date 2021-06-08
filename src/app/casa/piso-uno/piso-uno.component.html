@@ -1,0 +1,25 @@
+
+
+
+
+<div>
+    <h1>PISO1</h1>
+    <table class="table table-striped table-bordered">
+      <thead>
+          <tr>
+              <th>
+                <button (click)="enableDisableRule()" [ngClass]="{'green' : toggle, 'red': !toggle}">{{status}}</button>
+                <button (click)="enableDisableRule2()" [ngClass]="{'green' : toggle2, 'red': !toggle2}">{{status2}}</button>
+              </th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <button (click)="enableDisableRule3()" [ngClass]="{'green' : toggle3, 'red': !toggle3}">{{status3}}</button>
+            <button (click)="enableDisableRule4()" [ngClass]="{'green' : toggle4, 'red': !toggle4}">{{status4}}</button>
+              <td  >
+                  
+          </tr>
+      </tbody>
+    </table>
+    </div>
